@@ -15,4 +15,9 @@ no.addEventListener('click', () => {
 yes.addEventListener('click', () => {
     container.setAttribute('style', 'display: none;');
     tres.setAttribute('style', 'display: block;');
+      window.addEventListener('click', ()=> {
+        setTimeout(() => {
+            location.reload();
+        }, 5000)
+    })
 })
